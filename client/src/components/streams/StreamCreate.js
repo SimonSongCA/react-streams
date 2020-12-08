@@ -4,6 +4,10 @@ import React from "react";
 // as the connect() function
 import { Field, reduxForm } from "redux-form";
 
+//
+import { createStream } from "../../actions";
+import { connect } from "react-redux";
+
 class StreamCreate extends React.Component {
   renderError({ error, touched }) {
     if (touched && error) {
@@ -44,9 +48,9 @@ class StreamCreate extends React.Component {
     );
   };
 
-  onSubmit(formValues) {
-    console.log(formValues);
-  }
+  onSubmit = (formValues) => {
+    this.props.createStream(formValues);
+  };
 
   render() {
     return (
@@ -82,7 +86,15 @@ const validate = (formValues) => {
 
 // hook redux form up.
 // the reduxForm function receives a single object
-export default reduxForm({
+// export default reduxForm({
+//   form: "streamCreate",
+//   validate,
+// })(StreamCreate);
+
+// we replaced the code above to wire up the connect() function
+const formWrapped = reduxForm({
   form: "streamCreate",
   validate,
 })(StreamCreate);
+
+export default connect(null, { createStream })(formWrapped);
