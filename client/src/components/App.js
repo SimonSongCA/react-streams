@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import { Router, Route, Link } from "react-router-dom";
+import { Router, Route } from "react-router-dom";
 
 import StreamCreate from "./streams/StreamCreate";
 import StreamDelete from "./streams/StreamDelete";
