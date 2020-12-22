@@ -1,49 +1,10 @@
 {
   "streams": [
     {
-      "title": "my stream",
-      "description": "This is a great stream",
-      "id": 1
-    },
-    {
-      "title": "my stream",
-      "description": "This is also a great  stream",
-      "id": 2
-    },
-    {
-      "title": "I created a new string",
-      "description": "made by me!",
-      "userId": "108850430970552452584",
-      "id": 3
-    },
-    {
-      "title": "new stream",
-      "description": "new stream",
-      "userId": "108850430970552452584",
-      "id": 4
-    },
-    {
-      "title": "programmatic navigation",
-      "description": "you should not see this on the form page!!!",
-      "userId": "108850430970552452584",
-      "id": 5
-    },
-    {
-      "title": "testing",
-      "description": "testing",
-      "userId": "108850430970552452584",
-      "id": 6
-    },
-    {
-      "title": "1-refactored",
+      "title": "1",
       "description": "1",
       "userId": "108850430970552452584",
-      "id": 7
-    },
-    {
-      "title": "test(refactored)",
-      "description": "test",
-      "id": 8
+      "id": 1
     }
   ]
 }
