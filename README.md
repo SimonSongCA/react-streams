@@ -1,6 +1,8 @@
 # react-streams
 This is an application enabling users to view other users' streaming channels and also to create/edit/delete their own streaming channels.
 
+The current application is running on local servers at http://localhost:3000. We will be migrating the application to online servers in the near future.
+
 To run the application locally, follow the steps as follows:
 1. Download the entire project package
 2. Download OBS from https://obsproject.com 
