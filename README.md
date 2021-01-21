@@ -1,4 +1,4 @@
-# react-streams
+# Streamy: a Twitch-style online streaming apllication using OBS and React/Redux 
 This is an application enabling users to view other users' streaming channels and also to create/edit/delete their own streaming channels.
 
 The current application is running on local servers at http://localhost:3000. We will be migrating the application to online servers in the near future.
